@@ -1,53 +1,378 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Thế giới của anhhhh</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="https://imgur.com/CILKGax.png" type="image/x-icon"/>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/spinload.css">
-    <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Pacifico" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="wrapper">
-      <!-- Preloader -->
-    <div id="preloader">
-      <div class="spinner">
-        <div class="rect1"></div>
-        <div class="rect2"></div>
-        <div class="rect3"></div>
-        <div class="rect4"></div>
-        <div class="rect5"></div>
-      </div>
-  </div>
-      <div id="bg"></div>
-      <div class="content">
-        <header>
-          <h2 id="title"></h2>
-          <h4 id="desc"></h4>
-        </header>
-        <button id="yes" type="button" class="btn btn-danger btn-lg"> </button>
-        <button id="no" type="button" class="btn btn-info btn-lg"></button>
-      </div>
-    </div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-    <!-- 4. Thay đổi nhạc -->
-    <audio src="./sound/sound.mp3" autoplay></audio>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <script src="./config.js"></script>
-    <script src="./js/main.js"></script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Hearty Greeting</title>
+    <style type="text/css">
+        .ExternalClass {
+            width: 100%;
+        }
+        
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+        
+        @media only screen and (max-width: 599px) {
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/acWSgmDLxRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>table[class="MCwrapper"] {
+                width: 460px !important;
+            }
+            td[class="MCwrappercell"] {
+                padding-top: 23px !important;
+                padding-bottom: 23px !important;
+            }
+            h1[class="h1"] {
+                font-size: 24px !important;
+                letter-spacing: -1px !important;
+            }
+            h2[class="h2"] {
+                font-size: 21px !important;
+                letter-spacing: -1px !important;
+            }
+            h3[class="h3"] {
+                font-size: 19px !important;
+                letter-spacing: -1px !important;
+            }
+            h4[class="h4"] {
+                font-size: 17px !important;
+                letter-spacing: -1px !important;
+            }
+            h5[class="h5"] {
+                font-size: 15px !important;
+                letter-spacing: -1px !important;
+            }
+            /*** Container / Preheader 480px ***/
+            /* keep also these in all your layouts */
+            table[class="MCwrapper"] {
+                width: 460px !important;
+            }
+            table[class="hide"],
+            td[class="hide"],
+            img[class="hide"],
+            p[class="hide"] {
+                display: none !important;
+            }
+            /*** Header-04 module 480px ***/
+            td[id="logoname"] {
+                padding-top: 10px !important;
+                padding-left: 23px !important;
+                align: left !important;
+            }
+            img[id="logonameImage"] {
+                width: 237px !important;
+                height: 41px !important;
+                margin-top: -16px !important;
+            }
+            td[class="header04MC"] {
+                padding-bottom: 7px !important;
+            }
+            /*** Divider-01 module 480px ***/
+            td[class="divider01MC"] {
+                width: 414px !important;
+                padding-bottom: 10px !important;
+            }
+            td[class="divider01MC"] img {
+                width: 414px !important;
+                height: 7px !important;
+            }
+            /******* Drop the CSS marked with '480px' in the section below *******/
+            /*** Featured-05 module 480px ***/
+            td[class="featured05MC"] {
+                width: 460px !important;
+                padding-bottom: 15px !important;
+            }
+            td[class="featured05image"] {
+                width: 460px !important;
+            }
+            td[class="featured05image"] img {
+                width: 460px !important;
+                height: auto !important;
+            }
+            /*** Text-03a module 480px ***/
+            td[class="text03aMC"] {
+                width: 414px !important;
+                padding-top: 8px !important;
+                padding-bottom: 8px !important;
+            }
+            /*** Text-03b module 480px ***/
+            td[class="text03bMC"] {
+                width: 414px !important;
+                padding-top: 8px !important;
+                padding-bottom: 8px !important;
+            }
+            /*** Footer-07 module 480px ***/
+            td[id="footer07MC"] {
+                width: 460px !important;
+                padding-top: 15px !important;
+                padding-bottom: 15px !important;
+            }
+            td[id="footer07copyText"],
+            td[id="footer07linksWrapper"] {
+                width: 414px !important;
+            }
+            td[id="footer07logo"],
+            td[id="footer07copyText"],
+            td[id="footer07linksWrapper"],
+            td[id="footer07social"],
+            td[id="footer07connect"],
+            td[id="footer07permRem"] {
+                padding-left: 23px !important;
+                padding-right: 23px !important;
+            }
+            td[id="footer07linksWrapper"] {
+                padding-bottom: 15px !important;
+            }
+            td[id="footer07links"] {
+                line-height: 30px !important;
+                font-size: 13px !important;
+            }
+            td[id="footer07permRem"],
+            td[id="footer07copyText"] span,
+            td[id="footer07copyText"] span a {
+                color: #999999 !important;
+                font-size: 13px !important;
+            }
+            td[id="footer07permRem"] {
+                font-size: 16px !important;
+                padding-top: 10px !important;
+                padding-bottom: 10px !important;
+            }
+            /******* End of 480px CSS *******/
+        }
+        /*** Default heading styles 320px ***/
+        
+        @media only screen and (max-width: 479px) {
+            table[class="MCwrapper"] {
+                width: 300px !important;
+            }
+            td[class="MCwrappercell"] {
+                padding-top: 15px !important;
+                padding-bottom: 15px !important;
+            }
+            h1[class="h1"] {
+                font-size: 20px !important;
+                letter-spacing: -1px !important;
+            }
+            h2[class="h2"] {
+                font-size: 18px !important;
+                letter-spacing: -1px !important;
+            }
+            h3[class="h3"] {
+                font-size: 17px !important;
+                letter-spacing: -1px !important;
+            }
+            h4[class="h4"] {
+                font-size: 16px !important;
+                letter-spacing: -1px !important;
+            }
+            h5[class="h5"] {
+                font-size: 15px !important;
+                letter-spacing: -1px !important;
+            }
+            /*** Container / Preheader 320px ***/
+            table[class="MCwrapper"] {
+                width: 300px !important;
+            }
+            /*** Header04 module 320px ***/
+            td[id="logoname"] {
+                padding-top: 0 !important;
+                padding-left: 15px !important;
+            }
+            img[id="logonameImage"] {
+                width: 148px !important;
+                height: 26px !important;
+                margin-top: -16px !important;
+            }
+            td[class="header04MC"] {
+                padding-bottom: 3px !important;
+            }
+            /*** Divider-01 module 320px ***/
+            td[class="divider01MC"] {
+                width: 270px !important;
+                padding-bottom: 7px !important;
+            }
+            td[class="divider01MC"] img {
+                width: 270px !important;
+                height: 5px !important;
+            }
+            /******* Drop the CSS marked with '320px' in the section below *******/
+            /*** Featured-05 module 320px ***/
+            td[class="featured05MC"] {
+                width: 300px !important;
+                padding-bottom: 10px !important;
+            }
+            td[class="featured05image"] {
+                width: 300px !important;
+            }
+            td[class="featured05image"] img {
+                width: 300px !important;
+                height: auto !important;
+            }
+            /*** Text-03a module 320px ***/
+            td[class="text03aMC"] {
+                width: 270px !important;
+                padding-top: 5px !important;
+                padding-bottom: 5px !important;
+            }
+            /*** Text-03b module 320px ***/
+            td[class="text03bMC"] {
+                width: 270px !important;
+                padding-top: 5px !important;
+                padding-bottom: 5px !important;
+            }
+            /*** Footer-07 module 320px ***/
+            td[id="footer07MC"] {
+                width: 300px !important;
+                padding-top: 10px !important;
+                padding-bottom: 10px !important;
+            }
+            td[id="footer07logo"],
+            td[id="footer07copyText"],
+            td[id="footer07linksWrapper"],
+            td[id="footer07social"],
+            td[id="footer07connect"],
+            td[id="footer07permRem"] {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+            td[id="footer07links"] {
+                line-height: 36px !important;
+            }
+            /******* End of 320px CSS *******/
+        }
+    </style>
 
-  </body>
+</head>
+
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#FFFFFF" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;-webkit-font-smoothing: antialiased;width: 100%;">
+
+    <!------- START OVERALL WRAPPER TABLE ------->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+        <tr>
+            <td background="images/bg.png" style="padding-bottom: 50px;margin-top: 0;margin-bottom: 0;padding-top: 0;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;" bgcolor="#FFFFFF">
+
+                <!------- ******* START HEADER-04 MODULE ******* ------->
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td id="topSpace" class="hide" style="padding-top: 10px;margin-top: 0;margin-bottom: 0;padding-bottom: 0;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">&nbsp;</td>
+                    </tr>
+                </table>
+                <!--- just some space --->
+
+                <!------- START PRE-HEADER / BROWSER VIEW MODULE ------->
+                <table width="600" align="center" cellpadding="0" cellspacing="0" border="0" class="hide">
+                    <tr>
+                        <td id="preheader" align="left" class="hide" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">
+                            <p style="font-family: 'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Helvetica,Arial,Verdana,sans-serif;margin-top: 0;margin-bottom: 5px;padding-top: 0;padding-bottom: 0;font-size: 12px;line-height: 100%;color: #777777;letter-spacing: 0;"></p>
+                        </td>
+                        <td id="browserView" align="right" class="hide" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">
+                            <p style="font-family: 'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Helvetica,Arial,Verdana,sans-serif;margin-top: 0;margin-bottom: 5px;padding-top: 0;padding-bottom: 0;font-size: 12px;line-height: 100%;color: #777777;letter-spacing: 0;"> <a href="#" style="color: #ad77bb;text-decoration: none;">&nbsp;&nbsp;</a></p>
+                        </td>
+                    </tr>
+                </table>
+                <!------- END PRE-HEADER / BROWSER VIEW MODULE------->
+
+                <!------- START 600px WRAPPER ------->
+                <table width="600" align="center" cellpadding="0" cellspacing="0" border="0" class="MCwrapper">
+                    <tr>
+                        <td style="padding-top: 0;padding-bottom: 20px;margin-top: 0;margin-bottom: 0;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">
+
+                            <!------- START FEATURED-05 MODULE ------->
+                            <table align="center" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="600" class="featured05MC" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 20px;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">
+                                        <table class="featured05imageTable" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="featured05image" width="600" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">
+                                                    <a href="#" style="color: #ad77bb;text-decoration: none;">
+                                                        <img hspace="0" vspace="0" src="images/hap.jpg" width="600" height="300" alt="" title="" style="border: 0;display: block;outline: none;"></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!------- END FEATURED-05 MODULE ------->
+
+                            <!------- START TEXT-03a MODULE ------->
+                            <table align="center" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="text03aMC" width="540" style="margin-top: 0;margin-bottom: 0;padding-top: 10px;padding-bottom: 0;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">
+                                        <table align="left" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="text03aDate" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 30px;color: #ff0000;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;font-family: 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',Tahoma,Helvetica,Arial,Verdana,sans-serif;font-size: 14px;line-height: 21px;letter-spacing: -1px;font-weight: normal;">
+                                                    BMT,20/01/2022.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text03aGreeting" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 10px;color: red;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;font-family: 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',Tahoma,Helvetica,Arial,Verdana,sans-serif;font-size: 24px;line-height: 21px;letter-spacing: 1px;font-weight: normal;">
+                                                    Dear <span style="font-weight: bold;color: #FF0000;">Hoàng Minh Đức</span>,
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!------- END TEXT-03a MODULE ------->
+
+                            <!------- START TEXT-03b MODULE ------->
+                            <table align="center" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="text03bMC" width="540" style="margin-top: 0;margin-bottom: 0;padding-top: 10px;padding-bottom: 0;color:#000000;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">
+                                        <table align="left" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="text03bBodySummary" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;#FFFFFF;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;font-family: Tahoma,Helvetica,Arial,Verdana,sans-serif;font-size: 14px;line-height: 32px;letter-spacing: 0;font-weight: bold;color:red;">
+                                                    Hôm nay là một ngày rất đặc biệt, ngày này vài chục năm trước có một chàng trai cất "tiếng thét" chào đời, và bây giờ đã là một chàng trai "quá đẹp trai", là một người bạn thân thương, tốt bụng và rất nhiệt tình của anh em. Chúc anh luôn "hiền", trẻ nè,
+                                                    đẹp nè, mạnh khoẻ, thành đạt và nụ cười luôn nở trên môi nhé! -Một bạn đẹp trai giấu mặt :)) -
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!------- END TEXT-03b MODULE ------->
+
+                            <!------- START FEATURED-05 MODULE ------->
+                            <table align="center" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="600" class="featured05MC" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 20px;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">
+                                        <table class="featured05imageTable" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="featured05image" width="600" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;">
+                                                    <a href="#" style="color: #ad77bb;text-decoration: none;">
+                                                        <img hspace="0" vspace="0" src="images/happy_02.jpg" width="600" height="150" alt="" title="" style="border: 0;display: block;outline: none;"></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!------- END FEATURED-05 MODULE ------->
+
+                        </td>
+                    </tr>
+                </table>
+
+                <!------- END 600px WRAPPER ------->
+                <marquee behavior="" direction="right" style="background-color:salmon;color:blue;width:100%;height:150px;">
+                    <marquee behavior="" direction="right" scrollamount="7">
+                        <P>Sinh nhật vui vẻ thằng mặt lờ :333</P>
+                    </marquee><br>
+                    <marquee behavior="" direction="right" scrollamount="6">
+                        <P>Sinh nhật vui vẻ thằng mặt lờ :333</P>
+                    </marquee><br>
+                    <marquee behavior="" direction="right" scrollamount="5">
+                        <P>Sinh nhật vui vẻ thằng mặt lờ :333</P>
+                    </marquee>
+                </marquee>
+                <!------- END OVERALL WRAPPER TABLE ------->
+                <!------- END OVERALL WRAPPER TABLE ------->
+                <audio src="../haha/audio/aaa.mp3" autoplay></audio>
+</body>
+
 </html>
